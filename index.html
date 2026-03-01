@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief Archive</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+
+    <header>
+      <div class="hero">
+        <div>
+          <h1>AI Brief Archive</h1>
+          <p class="sub">每日 / 半月 AI 情报库 · 一站式回看趋势、观点与信号</p>
+        </div>
+        <div class="pill-wrap">
+          <span class="pill">⚡ Auto Updated</span>
+          <span class="pill">🗂 Daily + Biweekly</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel sidebar">
+        <section>
+          <div class="section-head">
+            <h2>Daily Briefs</h2>
+            <span id="daily-count" class="count">0</span>
+          </div>
+          <ul id="daily-list" class="item-list"></ul>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>Biweekly Summaries</h2>
+            <span id="biweekly-count" class="count">0</span>
+          </div>
+          <ul id="biweekly-list" class="item-list"></ul>
+        </section>
+      </aside>
+
+      <article class="panel detail">
+        <p class="eyebrow">Summary Detail</p>
+        <h2 id="detail-title">Select an entry</h2>
+        <p id="detail-date" class="meta"></p>
+        <div id="detail-content" class="content">
+          点击左侧日期查看当天摘要内容。
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <small>Data source: <code>data/index.json</code> · Hosted on Vercel</small>
+    </footer>
+
+    <script src="data/index.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

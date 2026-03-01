@@ -1,0 +1,26 @@
+{
+  "daily": [
+    {
+      "date": "2026-03-03",
+      "title": "Automation test",
+      "path": "data/daily/2026-03-03.md"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Daily AI Brief (X, degraded)",
+      "path": "data/daily/2026-03-01.md"
+    },
+    {
+      "date": "2026-02-29",
+      "title": "Open Models Close Quality Gap",
+      "path": "data/daily/2026-02-29.md"
+    }
+  ],
+  "biweekly": [
+    {
+      "date": "2026-02-16_to_28",
+      "title": "Biweekly AI Signal Review",
+      "path": "data/biweekly/2026-02-16_to_28.md"
+    }
+  ]
+}
